@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './admin.css';
 import {  useNavigate } from "react-router-dom";
 import axios from 'axios';
-import email from '../../assets/email.svg';
+import emi from "../../assets/email.svg"
 import lock from '../../assets/lock.svg';
 import half from '../../assets/half.svg';
 import { colors } from '@mui/material';
@@ -52,7 +52,7 @@ function Admin_Page() {
       <div className='main-div'>
         <div>
           <label className="name-label  text-center">
-            <img className="icon " src={email} />
+            <img className="icon " src={emi} />
             <input type="text" id="email" name="email" placeholder="Enter your email" onChange={handleChange} className='inputlog' />
           </label>
         </div>

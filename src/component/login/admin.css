@@ -98,7 +98,9 @@ input:focus-visible{
     position: relative;
     width: 33%;
   }
-  
+  .failed{
+    color: red;
+  }
   label > .icon {
     position: absolute;
     top: 50%;
