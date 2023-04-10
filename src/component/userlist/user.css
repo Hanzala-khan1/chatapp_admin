@@ -23,11 +23,21 @@ body {
     padding: .5rem;
     background-color: white;
 }
+.downloadicon{
+font-size: 2rem;
+color: black;
+cursor: pointer;
+}
+.downloadicon:hover{
+color: blue;
+}
 
 .headuser {
     text-align: left;
     color: rgb(5, 5, 5);
     font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
 
 }
 
