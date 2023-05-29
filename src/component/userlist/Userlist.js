@@ -39,7 +39,7 @@ const Userlist = () => {
             tableRows.push(userData);
         });
 
-        doc.autoTable(tableColumn, tableRows);
+        doc.autoTable(tableColumn, tableRows, { startY: 20 });
         doc.save('user-data.pdf');
     }
     function handleClick() {
